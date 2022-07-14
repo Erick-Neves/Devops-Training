@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Automação em Selenium GRID" parallel="tests" thread-count = "1">
+    <test name="Teste node 1">
+        <classes>
+            <class name="pernambucanas.grid.Node1"/>
+        </classes>
+    </test>
+    <test name="Teste node 2">
+        <classes>
+            <class name="pernambucanas.grid.Node2"/>
+        </classes>
+    </test>
+    <test name="Teste node 3">
+        <classes>
+            <class name="pernambucanas.grid.Node3"/>
+        </classes>
+    </test>
+</suite>

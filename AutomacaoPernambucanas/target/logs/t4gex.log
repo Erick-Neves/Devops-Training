@@ -1,0 +1,126 @@
+[36m [T4GEX] [2022-06-22 17:04:44,782] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Using default name for t4gex.properties: null
+[m[36m [T4GEX] [2022-06-22 17:04:44,798] [DEBUG] [br.com.linkconsulting.t4gexcore.properties.CoreProperties] [main] : Creating properties file for runtime...
+[m[36m [T4GEX] [2022-06-22 17:04:44,798] [DEBUG] [br.com.linkconsulting.t4gexcore.properties.CoreProperties] [main] : Runtime properties file created
+[m[36m [T4GEX] [2022-06-22 17:04:44,882] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Using default name for t4gex.properties: null
+[m[36m [T4GEX] [2022-06-22 17:04:44,882] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : T4gex webdriver module properties loaded
+[m[32m [T4GEX] [2022-06-22 17:04:44,913] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting Test Suite...
+[m[36m [T4GEX] [2022-06-22 17:04:44,913] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Using default name for t4gex.properties: null
+[m[36m [T4GEX] [2022-06-22 17:04:44,913] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.SuiteTestParamManager] [main] : Overwritting t4gex.properties parameters....
+[m[36m [T4GEX] [2022-06-22 17:04:44,913] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.SuiteTestParamManager] [main] : Overwrite completed
+[m[36m [T4GEX] [2022-06-22 17:04:44,913] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Total of tests to be executed: 7
+[m[36m [T4GEX] [2022-06-22 17:04:44,913] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : Creating report directory...
+[m[36m [T4GEX] [2022-06-22 17:04:44,913] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : Directory created.
+[m[33m [T4GEX] [2022-06-22 17:04:44,929] [WARN] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : No Extent Report configuration xml detected, using default.
+[m[36m [T4GEX] [2022-06-22 17:04:44,998] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : Extent Report instance created
+[m[36m [T4GEX] [2022-06-22 17:04:44,998] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Suite started.
+[m[36m [T4GEX] [2022-06-22 17:04:44,998] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting Test... AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:04:45,029] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:45,029] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:45,029] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:04:45,277] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:04:45,277] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:04:45,277] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:04:45,277] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:04:49,056] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: 69f2f741-4134-4172-90fe-d1ee9903b842
+[m[36m [T4GEX] [2022-06-22 17:04:56,557] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:04:56,618] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 1/7 - pernambucanas.test.TesteRunner.fazerBuscaPorProdutoExistente
+[m[36m [T4GEX] [2022-06-22 17:04:56,620] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:57,473] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:04:57,473] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:57,473] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:57,488] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:57,488] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:57,488] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:04:57,488] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:04:57,526] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:04:57,526] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:04:57,526] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:04:57,526] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:00,413] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: 8f3f1881-0bbb-4a46-818e-21375ea46a9b
+[m[36m [T4GEX] [2022-06-22 17:05:09,700] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:05:10,227] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 2/7 - pernambucanas.test.TesteRunner.fazerBuscaPorProdutoExistenteSelecionarAdicionar
+[m[36m [T4GEX] [2022-06-22 17:05:10,227] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:10,938] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:05:10,938] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:10,938] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:10,938] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:10,954] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:10,954] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:10,954] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:05:10,986] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:05:10,986] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:10,986] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:05:10,986] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:13,815] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: 45271786-f716-4ed8-bd8c-a885d8b5104f
+[m[36m [T4GEX] [2022-06-22 17:05:23,268] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:05:23,304] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 3/7 - pernambucanas.test.TesteRunner.fazerBuscaPorProdutoInexistente
+[m[36m [T4GEX] [2022-06-22 17:05:23,304] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:24,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:05:24,206] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:05:24,206] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:24,206] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:05:24,206] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:27,541] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: 5b61e0b8-5447-436e-9d5e-9b0f0398a550
+[m[36m [T4GEX] [2022-06-22 17:05:32,037] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:05:32,074] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 4/7 - pernambucanas.test.TesteRunner.fazerLoginComCPFInvalido
+[m[36m [T4GEX] [2022-06-22 17:05:32,074] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:33,116] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:05:33,166] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:05:33,166] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:33,166] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:05:33,166] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:36,521] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: 5e6aaf6b-0c14-4ca6-be87-e34c5e74f8c0
+[m[36m [T4GEX] [2022-06-22 17:05:46,646] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:05:46,684] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 5/7 - pernambucanas.test.TesteRunner.fazerLoginComCPFValido
+[m[36m [T4GEX] [2022-06-22 17:05:46,684] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:47,376] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:05:47,376] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:47,376] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:47,376] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:47,386] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:47,386] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:05:47,386] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:05:47,426] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:05:47,426] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:47,426] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:05:47,426] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:05:50,446] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: b80a201d-bf33-4ecd-b7d2-40a1e87a72c1
+[m[36m [T4GEX] [2022-06-22 17:06:00,786] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[36m [T4GEX] [2022-06-22 17:06:05,787] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:06:05,824] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 6/7 - pernambucanas.test.TesteRunner.fazerLoginComCPFValidoESenhaInvalida
+[m[36m [T4GEX] [2022-06-22 17:06:05,826] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:06,686] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:06:06,686] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:06,686] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:06,686] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:06,691] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:06,691] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:06,691] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Method starting for test AutomacaoPernambucanas
+[m[36m [T4GEX] [2022-06-22 17:06:06,726] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver path not informed. Using default selenium driver properties before creating driver...
+[m[36m [T4GEX] [2022-06-22 17:06:06,726] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Remote execution detected. URL: http://192.168.0.121:4444/wd/hub
+[m[36m [T4GEX] [2022-06-22 17:06:06,726] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Valid Host URL parsed.
+[m[36m [T4GEX] [2022-06-22 17:06:06,726] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Creating remotewebdriver for URL: /wd/hub
+[m[36m [T4GEX] [2022-06-22 17:06:09,776] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : Driver session: a41fe4d9-1c9e-4133-b8dd-1db89733261e
+[m[36m [T4GEX] [2022-06-22 17:06:30,039] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[36m [T4GEX] [2022-06-22 17:06:43,126] [DEBUG] [br.com.linkconsulting.t4gexcore.assertion.CoreAssertBehavior] [main] : Call to assert sucess: Expected [true]. Actual [true]
+[m[32m [T4GEX] [2022-06-22 17:06:43,166] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test finished - SUCESS: 7/7 - pernambucanas.test.TesteRunner.fazerLoginComCPFValidoESenhaValida
+[m[36m [T4GEX] [2022-06-22 17:06:43,166] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:44,076] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-06-22 17:06:44,076] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:44,076] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:44,076] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.test.TesteRunner@46cdf8bd]
+[m[36m [T4GEX] [2022-06-22 17:06:44,076] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Completed.
+[m[32m [T4GEX] [2022-06-22 17:06:44,116] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Suite completed.
+[m
