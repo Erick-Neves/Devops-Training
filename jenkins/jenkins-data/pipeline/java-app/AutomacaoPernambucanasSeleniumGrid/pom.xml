@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>AutomacaoPernambucanas</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.java.version>1.8</project.java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <t4gex.version>2.5.0-SNAPSHOT</t4gex.version>
+    </properties>
+    <repositories>
+        <repository>
+            <id>LinkNexus</id>
+            <url>http://dsnexus.brazilsouth.cloudapp.azure.com:7005/repository/maven-public/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>br.com.linkconsulting</groupId>
+            <artifactId>t4gex-core</artifactId>
+            <version>${t4gex.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>br.com.linkconsulting</groupId>
+            <artifactId>t4gex-webdriver</artifactId>
+            <version>${t4gex.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>br.com.linkconsulting</groupId>
+            <artifactId>t4gex-app</artifactId>
+            <version>${t4gex.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.genium-framework</groupId>
+            <artifactId>Appium-Support</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+            <optional>false</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.5</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <configuration>
+                    <source>${project.java.version}</source>
+                    <target>${project.java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+                <configuration>
+                    <!--forkCount>1</forkCount -->
+                    <!--reuseForks>true</reuseForks -->
+                    <argLine>-Duser.timezone=GMT-3</argLine>
+                    <disableXmlReport>true</disableXmlReport>
+                    <useFile>false</useFile>
+                    <encoding>${project.reporting.outputEncoding}</encoding>
+                    <disableXmlReport>true</disableXmlReport>
+                    <argLine>-Dfile.encoding=${project.reporting.outputEncoding}</argLine>
+                    <argLine>-Duser.timezone=GMT-3</argLine>
+                    <suiteXmlFiles><!-- pass testng.xml files as argument from command line -->
+                        <suiteXmlFile>src/test/resources/GRID.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

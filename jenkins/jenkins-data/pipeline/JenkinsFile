@@ -1,0 +1,50 @@
+pipeline{
+    agent any
+    stages {
+        stage('Git Checkout')
+        {
+            steps {
+                git branch: 'main', url: 'http://root:WsWMmuHdrqyoD8wo8rhC@gitlab:80/jenkins/maven.git'
+	    }
+        }
+	stage('Build Jar') {
+	    steps {
+		sh '''
+			./jenkins/build/mvn_build.sh mvn -B -DskipTests clean package
+			./jenkins/build/build.sh
+		   '''
+	    }
+	}
+	stage('Test Jar') {
+		steps {
+			sh './jenkins/test/mvn_test.sh'
+		}
+	}
+        stage('Docker Up') {
+            steps {
+                sh """docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" --name PernambucanasDocker selenium/standalone-firefox"""
+            }
+        }
+        stage('Tests') {
+            steps{
+                script{
+                      try{
+                         dir('AutomacaoPernambucanasSeleniumGrid') {
+                              sh """mvn clean install"""
+                         }
+                      }catch (Throwable exc) {
+            		      echo 'Testing Failed!'
+            		      echo 'Exception message: ' + exc.getMessage()
+            		      currentBuild.result = 'UNSTABLE'
+                            }
+                        }
+                    }
+                }
+        stage('Docker Down'){
+            steps {
+                 sh "docker stop PernambucanasDocker"
+                 sh "docker rm PernambucanasDocker"
+            }
+        }
+    }
+}

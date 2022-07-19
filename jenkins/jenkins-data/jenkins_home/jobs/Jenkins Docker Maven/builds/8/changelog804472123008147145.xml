@@ -1,0 +1,11 @@
+commit d85bacd5efadab6c37942fa0d62378a8bb5b542d
+tree f182c11ba87ebd271a263c05f0cf9aa7e9273cf6
+parent 8bc56cecc60a0bb981b64334390e371b45639e4c
+author jenkins <jenkins@localhost.localdomain> 2022-07-14 16:08:06 -0400
+committer jenkins <jenkins@localhost.localdomain> 2022-07-14 16:08:06 -0400
+
+    Changed uri
+
+
+:000000 100644 0000000000000000000000000000000000000000 fb032edcb4e42f2461ca97aaec27e026081b3c41 A	jenkins/.JenkinsFile.swp
+:100644 100644 889b0c219eab0f11eb3d5e4402c831721465cf23 90b0b03461049ecd33a149507228e67273c562ee M	jenkins/JenkinsFile

@@ -1,0 +1,36 @@
+commit 33bfd04f412f98fbe9b015e3cd86f82b0547fe19
+tree 277076c4f8bffb64983e5b51e7aeb226dd6439ee
+parent 4b886347a48118522edf07a75a8f0ce46a8b0657
+author Administrator <admin@example.com> 2022-07-18 12:55:09 +0000
+committer Administrator <admin@example.com> 2022-07-18 12:55:09 +0000
+
+    Update JenkinsFile
+
+:100644 100644 3fb3f8250be3d2d50f87ca01791fbdc346c22ed9 3cd4ea9b0f10875495d16aa221e62dd219178f14 M	jenkins/JenkinsFile
+commit 4b886347a48118522edf07a75a8f0ce46a8b0657
+tree ad1354cf182c0280413041959158b71d975e3a51
+parent 1cfb3fca14d1c8931dd133936b852c442b6466b8
+author Administrator <admin@example.com> 2022-07-18 12:52:17 +0000
+committer Administrator <admin@example.com> 2022-07-18 12:52:17 +0000
+
+    Update JenkinsFile
+
+:100644 100644 e6b86af1e23d251a38f4f55a54c7d73fddec6008 3fb3f8250be3d2d50f87ca01791fbdc346c22ed9 M	jenkins/JenkinsFile
+commit 1cfb3fca14d1c8931dd133936b852c442b6466b8
+tree 48150f3a03455c756273b31a33ff81bab6c92a9b
+parent 1599b375e06f3286744fc4158caa79739a33478b
+author Administrator <admin@example.com> 2022-07-18 12:49:14 +0000
+committer Administrator <admin@example.com> 2022-07-18 12:49:14 +0000
+
+    Update JenkinsFile
+
+:100644 100644 0f99bfc2e3ff1f46ac4691a8ada5caa1d6c1e440 e6b86af1e23d251a38f4f55a54c7d73fddec6008 M	jenkins/JenkinsFile
+commit 1599b375e06f3286744fc4158caa79739a33478b
+tree 8887ce84c06edd28fb57ff670d54e6253c2ce7e9
+parent c7040f77d194bb24faecf661b4d70fc3b047c5f6
+author Administrator <admin@example.com> 2022-07-18 12:46:51 +0000
+committer Administrator <admin@example.com> 2022-07-18 12:46:51 +0000
+
+    Update JenkinsFile
+
+:100644 100644 76f7566476451668c9daec946e6932f3b6089dce 0f99bfc2e3ff1f46ac4691a8ada5caa1d6c1e440 M	jenkins/JenkinsFile

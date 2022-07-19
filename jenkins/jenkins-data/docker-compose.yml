@@ -1,0 +1,28 @@
+version: '3'
+services:
+  jenkins:
+   container_name: jenkins
+   image: jenkins/docker
+   build:
+    context: pipeline
+   ports:
+    - "8080:8080"
+   volumes:
+    - "$PWD/jenkins_home:/var/jenkins_home"
+    - "/var/run/docker.sock:/var/run/docker.sock"
+   networks:
+    - net
+  gitlab:
+   container_name: gitlab-server
+   image: 'gitlab/gitlab-ce:latest'
+   hostname: 'gitlab.example.com'
+   ports:
+    - '8090:80'
+   volumes:
+    - '$GITLAB_HOME/config:/etc/gitlab'
+    - '$GITLAB_HOME/logs:/var/log/gitlab'
+    - '$GITLAB_HOME/data:/var/opt/gitlab'
+   networks:
+    - net
+networks:
+ net:

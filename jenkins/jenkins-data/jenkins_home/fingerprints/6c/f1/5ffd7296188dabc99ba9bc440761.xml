@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-07-15 13:49:21.96 UTC</timestamp>
+  <md5sum>6cf15ffd7296188dabc99ba9bc440761</md5sum>
+  <fileName>Credential id=gitlab-user name=root/******</fileName>
+  <usages>
+    <entry>
+      <string>Jenkins Docker Maven</string>
+      <ranges>9-12,15-16,20</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1139.veb_9579fca_33b_">
+      <timestamp>1658149026873</timestamp>
+      <itemFullName>Jenkins Docker Maven</itemFullName>
+      <timestamp0>1658148922301</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

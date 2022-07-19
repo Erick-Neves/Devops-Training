@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@833.va_1c71061486b_">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2746.v0da_83a_332669">
+    <parentIds>
+      <string>13</string>
+    </parentIds>
+    <id>14</id>
+    <descriptorId>jenkins.plugins.git.GitStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2746.v0da_83a_332669">
+      <arguments>
+        <entry>
+          <string>branch</string>
+          <string>main</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>http://root:WsWMmuHdrqyoD8wo8rhC@gitlab:80/jenkins/maven.git</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1188.v0016b_4f29881">
+      <startTime>1657893957191</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

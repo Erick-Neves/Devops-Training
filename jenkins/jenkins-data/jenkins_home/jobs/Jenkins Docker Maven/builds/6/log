@@ -1,0 +1,3 @@
+Started by user [8mha:////4ADHdkC0YU7tfXh3AKRL7kj6i7wqHKTZ3Q5dy6FlStItAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mJenkins
+ERROR: Unable to find jenkins/Jenkinsfile from git http://gitlab:80/jenkins/maven.git
+Finished: FAILURE

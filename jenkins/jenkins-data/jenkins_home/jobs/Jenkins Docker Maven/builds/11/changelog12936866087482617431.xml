@@ -1,0 +1,10 @@
+commit f67d36383bcabef886073c53f6eb3d0f41fb0e65
+tree d790448ea52fbfcefdad291411ead2a727d05ff1
+parent d85bacd5efadab6c37942fa0d62378a8bb5b542d
+author jenkins <jenkins@localhost.localdomain> 2022-07-15 10:03:51 -0400
+committer jenkins <jenkins@localhost.localdomain> 2022-07-15 10:03:51 -0400
+
+    Adicionado credencial no URI
+
+
+:100644 100644 90b0b03461049ecd33a149507228e67273c562ee ec4f0e9d0d4f6922f92e51a7cf1f57d344029c8c M	jenkins/JenkinsFile

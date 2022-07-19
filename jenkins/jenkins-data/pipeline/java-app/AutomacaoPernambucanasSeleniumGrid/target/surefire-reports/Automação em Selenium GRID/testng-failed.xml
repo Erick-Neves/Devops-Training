@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automação em Selenium GRID]" parallel="tests">
+  <test thread-count="1" verbose="0" name="Teste node 1(failed)" parallel="tests">
+    <classes>
+      <class name="pernambucanas.grid.Node1">
+        <methods>
+          <include name="cleanTest"/>
+          <include name="teardownDriverListThread"/>
+          <include name="setupDriverListThread"/>
+          <include name="fazerBuscaPorProdutoExistente" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pernambucanas.grid.Node1 -->
+    </classes>
+  </test> <!-- Teste node 1(failed) -->
+  <test thread-count="1" verbose="0" name="Teste node 2(failed)" parallel="tests">
+    <classes>
+      <class name="pernambucanas.grid.Node2">
+        <methods>
+          <include name="cleanTest"/>
+          <include name="teardownDriverListThread"/>
+          <include name="setupDriverListThread"/>
+          <include name="fazerBuscaPorProdutoExistente" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pernambucanas.grid.Node2 -->
+    </classes>
+  </test> <!-- Teste node 2(failed) -->
+  <test thread-count="1" verbose="0" name="Teste node 3(failed)" parallel="tests">
+    <classes>
+      <class name="pernambucanas.grid.Node3">
+        <methods>
+          <include name="cleanTest"/>
+          <include name="teardownDriverListThread"/>
+          <include name="setupDriverListThread"/>
+          <include name="fazerBuscaPorProdutoExistente" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pernambucanas.grid.Node3 -->
+    </classes>
+  </test> <!-- Teste node 3(failed) -->
+</suite> <!-- Failed suite [Automação em Selenium GRID] -->

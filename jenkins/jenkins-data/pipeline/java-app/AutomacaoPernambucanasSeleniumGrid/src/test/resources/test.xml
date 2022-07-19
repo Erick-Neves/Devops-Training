@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Automação em Selenium GRID" parallel="tests" thread-count = "2">
+    <test name="Logar com CPF Invalido">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerLoginComCPFInvalido"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logar com CPF Valido">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerLoginComCPFValido"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Logar com CPF Valido e Senha Invalida">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerLoginComCPFValidoESenhaInvalida"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logar com CPF Valido e Senha Valida">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerLoginComCPFValidoESenhaValida"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Buscar produto existente">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerBuscaPorProdutoExistente"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Buscar produto Inexistente">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerBuscaPorProdutoInexistente"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Adicionar produto no carrinho">
+        <classes>
+            <class name="pernambucanas.test.TesteRunner">
+                <methods>
+                    <include name="fazerBuscaPorProdutoExistenteSelecionarAdicionar"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

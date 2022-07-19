@@ -1,0 +1,50 @@
+[36m [T4GEX] [2022-07-18 14:21:03,739] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Using default name for t4gex.properties: null
+[m[36m [T4GEX] [2022-07-18 14:21:03,759] [DEBUG] [br.com.linkconsulting.t4gexcore.properties.CoreProperties] [main] : Creating properties file for runtime...
+[m[36m [T4GEX] [2022-07-18 14:21:03,763] [DEBUG] [br.com.linkconsulting.t4gexcore.properties.CoreProperties] [main] : Runtime properties file created
+[m[36m [T4GEX] [2022-07-18 14:21:03,858] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Using default name for t4gex.properties: null
+[m[36m [T4GEX] [2022-07-18 14:21:03,860] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [main] : T4gex webdriver module properties loaded
+[m[32m [T4GEX] [2022-07-18 14:21:04,130] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Starting Test Suite...
+[m[36m [T4GEX] [2022-07-18 14:21:04,131] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Using default name for t4gex.properties: null
+[m[36m [T4GEX] [2022-07-18 14:21:04,132] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.SuiteTestParamManager] [main] : Overwritting t4gex.properties parameters....
+[m[36m [T4GEX] [2022-07-18 14:21:04,132] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.SuiteTestParamManager] [main] : Overwrite completed
+[m[36m [T4GEX] [2022-07-18 14:21:04,133] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Total of tests to be executed: 3
+[m[36m [T4GEX] [2022-07-18 14:21:04,135] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : Creating report directory...
+[m[36m [T4GEX] [2022-07-18 14:21:04,135] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : Directory created.
+[m[33m [T4GEX] [2022-07-18 14:21:04,142] [WARN] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : No Extent Report configuration xml detected, using default.
+[m[36m [T4GEX] [2022-07-18 14:21:04,191] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.report.ExtentReportManager] [main] : Extent Report instance created
+[m[36m [T4GEX] [2022-07-18 14:21:04,202] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Suite started.
+[m[36m [T4GEX] [2022-07-18 14:21:04,207] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting Test... Teste node 1
+[m[36m [T4GEX] [2022-07-18 14:21:04,268] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.grid.Node1@76b1e9b8]
+[m[36m [T4GEX] [2022-07-18 14:21:04,273] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.grid.Node1@76b1e9b8]
+[m[36m [T4GEX] [2022-07-18 14:21:04,273] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test Method starting for test Teste node 1
+[m[33m [T4GEX] [2022-07-18 14:21:05,774] [WARN] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test finished - FAIL: 1/3 - pernambucanas.grid.Node1.fazerBuscaPorProdutoExistente
+[m[36m [T4GEX] [2022-07-18 14:21:05,807] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.grid.Node1@76b1e9b8]
+[m[36m [T4GEX] [2022-07-18 14:21:05,820] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [TestNG-tests-1] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-07-18 14:21:05,821] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.grid.Node1@76b1e9b8]
+[m[36m [T4GEX] [2022-07-18 14:21:05,821] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.grid.Node1@76b1e9b8]
+[m[36m [T4GEX] [2022-07-18 14:21:05,821] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.grid.Node1@76b1e9b8]
+[m[36m [T4GEX] [2022-07-18 14:21:05,839] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test Completed.
+[m[36m [T4GEX] [2022-07-18 14:21:05,851] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting Test... Teste node 2
+[m[36m [T4GEX] [2022-07-18 14:21:05,852] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.grid.Node2@742ff096]
+[m[36m [T4GEX] [2022-07-18 14:21:05,853] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.grid.Node2@742ff096]
+[m[36m [T4GEX] [2022-07-18 14:21:05,853] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test Method starting for test Teste node 2
+[m[33m [T4GEX] [2022-07-18 14:21:05,967] [WARN] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test finished - FAIL: 2/3 - pernambucanas.grid.Node2.fazerBuscaPorProdutoExistente
+[m[36m [T4GEX] [2022-07-18 14:21:05,969] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.grid.Node2@742ff096]
+[m[36m [T4GEX] [2022-07-18 14:21:05,970] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [TestNG-tests-1] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-07-18 14:21:05,970] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.grid.Node2@742ff096]
+[m[36m [T4GEX] [2022-07-18 14:21:05,970] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.grid.Node2@742ff096]
+[m[36m [T4GEX] [2022-07-18 14:21:05,971] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.grid.Node2@742ff096]
+[m[36m [T4GEX] [2022-07-18 14:21:06,009] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test Completed.
+[m[36m [T4GEX] [2022-07-18 14:21:06,014] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting Test... Teste node 3
+[m[36m [T4GEX] [2022-07-18 14:21:06,016] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.grid.Node3@15043a2f]
+[m[36m [T4GEX] [2022-07-18 14:21:06,016] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexWebDriverTest.setupDriverListThread()[pri:0, instance:pernambucanas.grid.Node3@15043a2f]
+[m[36m [T4GEX] [2022-07-18 14:21:06,017] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test Method starting for test Teste node 3
+[m[33m [T4GEX] [2022-07-18 14:21:06,213] [WARN] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test finished - FAIL: 3/3 - pernambucanas.grid.Node3.fazerBuscaPorProdutoExistente
+[m[36m [T4GEX] [2022-07-18 14:21:06,216] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.grid.Node3@15043a2f]
+[m[36m [T4GEX] [2022-07-18 14:21:06,216] [DEBUG] [br.com.linkconsulting.t4gexwebdriver.test.T4gexWebDriverTest] [TestNG-tests-1] : DriverListThread cleaned
+[m[36m [T4GEX] [2022-07-18 14:21:06,216] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexWebDriverTest.teardownDriverListThread()[pri:0, instance:pernambucanas.grid.Node3@15043a2f]
+[m[36m [T4GEX] [2022-07-18 14:21:06,217] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Starting test configuration: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.grid.Node3@15043a2f]
+[m[36m [T4GEX] [2022-07-18 14:21:06,217] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Configuration sucessful for: T4gexTest.cleanTest()[pri:0, instance:pernambucanas.grid.Node3@15043a2f]
+[m[36m [T4GEX] [2022-07-18 14:21:06,223] [DEBUG] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [TestNG-tests-1] : Test Completed.
+[m[32m [T4GEX] [2022-07-18 14:21:06,275] [INFO] [br.com.linkconsulting.t4gexcore.manager.ExtentTestManager] [main] : Test Suite completed.
+[m
